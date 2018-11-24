@@ -22,7 +22,7 @@
 ### Instalar projeto
  - Instalar requirements.txt
 ```sh
-    pip install requirements.txt
+    (env) pip install requirements.txt
 ```
 
 ### Rodando projeto
