@@ -9,7 +9,7 @@ db = SQLAlchemy(app)
 
 class Pessoa(db.Model):
 
-    __tablename_= 'pessoa'
+    __tablename__ = 'pessoa'
 
     _id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     nome = db.Column(db.String)
